@@ -1,0 +1,51 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+
+.tech-card-container {
+  background-color: white;
+  width: 350px;
+  padding: 20px;
+  margin-bottom: 30px;
+  list-style-type: none;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 991px) {
+  .tech-card-container {
+    width: 80%;
+    max-width: 300px;
+  }
+}
+
+.card-title {
+  color: #171f46;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.card-description {
+  color: #64748b;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+.card-image {
+  width: 80px;
+  align-self: flex-end;
+}
